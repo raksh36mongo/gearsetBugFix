@@ -7,7 +7,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SBQQ__Quote__c.Account_Coverage__c</field>
         <readable>true</readable>
     </fieldPermissions>
