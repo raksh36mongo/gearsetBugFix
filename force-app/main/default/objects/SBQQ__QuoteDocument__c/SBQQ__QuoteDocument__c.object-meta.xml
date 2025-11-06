@@ -148,7 +148,7 @@
     <customHelpPage>SBQQ__QuoteDocumentHelp</customHelpPage>
     <deploymentStatus>Deployed</deploymentStatus>
     <deprecated>false</deprecated>
-    <description>Particular version of a generated PDF document for the quote it&apos;s attached to. Ability to edit or delete this object should be taken away from all users (except administrators, of course) in order to preserve audit trail of all revisions.</description>
+    <description>Particular version of a generated PDF document for the quote it&#39;s attached to. Ability to edit or delete this object should be taken away from all users (except administrators, of course) in order to preserve audit trail of all revisions.</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableEnhancedLookup>false</enableEnhancedLookup>
