@@ -30321,7 +30321,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Case.Jira_Group__c</field>
         <readable>true</readable>
     </fieldPermissions>
