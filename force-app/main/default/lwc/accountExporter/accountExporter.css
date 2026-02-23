@@ -1,0 +1,7 @@
+.spinner-box {
+    position: relative;
+    height: 20rem; /* controls the spinner's vertical size */
+    width: 100px;  /* optional */
+    margin: auto;
+    font-weight: bold;
+}

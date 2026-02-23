@@ -1,0 +1,20 @@
+<template>
+    <lightning-record-edit-form object-api-name="Opportunity" onload={handleLoad}>
+        <!-- Account Lookup Field with hidden label-->
+        <lightning-input-field data-id="accountLookup" field-name="AccountId" variant="label-hidden"
+            value={selectedAccount} onchange={handleAccountChange}>
+        </lightning-input-field>
+    </lightning-record-edit-form>
+
+    <template lwc:if={selectedAccount}>
+        <div class="slds-grid slds-grid_align-center slds-m-top_medium">
+            <lightning-button variant="brand" label="View Hierarchy" onclick={handleViewHierarchy}>
+            </lightning-button>
+        </div>
+    </template>
+
+    <!-- Loading Spinner -->
+    <template lwc:if={isLoading}>
+        <lightning-spinner alternative-text="Loading..." size="small"></lightning-spinner>
+    </template>
+</template>
