@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>jackie@mongodb.com</contactEmail>
+    <description>The Developer Hub lets you view, create and manage scratch orgs and namespace registries from one location.</description>
+    <iconUrl>https://mongodb.my.salesforce.com/environmenthub/images/connected_app_logo.png</iconUrl>
+    <label>SalesforceDX Namespace Registry</label>
+    <logoUrl>https://mongodb.my.salesforce.com/environmenthub/images/connected_app_logo.png</logoUrl>
+    <oauthConfig>
+        <callbackUrl>https://mongodb.my.salesforce.com/environmenthub/soma-callback.apexp</callbackUrl>
+        <consumerKey>3MVG9iBaHQRfreBmzVhejYNV5jj_TLsmaHKpCJKWVSq_B8wgU8cRsIw6KdSQRDC8rhSRgGMPeBElL17tBFUXm</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>zero</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

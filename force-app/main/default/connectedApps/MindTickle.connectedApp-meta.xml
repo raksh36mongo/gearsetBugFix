@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>support@mindtickle.com</contactEmail>
+    <label>MindTickle</label>
+    <samlConfig>
+        <acsUrl>https://mongodb.mindtickle.com/login/ssosaml</acsUrl>
+        <encryptionType>AES_128</encryptionType>
+        <entityUrl>601750695889109690_mindtickle</entityUrl>
+        <issuer>https://mongodb.my.salesforce.com</issuer>
+        <samlNameIdFormat>Unspecified</samlNameIdFormat>
+        <samlSigningAlgoType>SHA1</samlSigningAlgoType>
+        <samlSubjectType>Username</samlSubjectType>
+    </samlConfig>
+</ConnectedApp>

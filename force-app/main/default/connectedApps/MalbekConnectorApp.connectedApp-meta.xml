@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canvasConfig>
+        <accessMethod>Post</accessMethod>
+        <canvasUrl>https://mongodb.malbekcloud.com/external/canvas/ui?connector=SFDCCRM</canvasUrl>
+        <locations>Visualforce</locations>
+        <samlInitiationMethod>None</samlInitiationMethod>
+    </canvasConfig>
+    <contactEmail>crm-technologies+malbek@mongodb.com</contactEmail>
+    <description>Malbek Connected App</description>
+    <label>MalbekConnectorApp</label>
+    <oauthConfig>
+        <callbackUrl>https://mongodb.malbekcloud.com/app/home
+https://kallback.malbekcloud.com/callback/app/connector/oauth/consent</callbackUrl>
+        <consumerKey>3MVG9iBaHQRfreBmzVhejYNV5jj_TLsmaHKpCIfuPY1cX2ivnGibN9s3Vcwj5u7xCvFIeBgIec2E0i1rsOWuU</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <permissionSetName>Malbek Contrax User</permissionSetName>
+    <profileName>System Admin Read only</profileName>
+    <profileName>Integration Minimum Access (DO NOT EDIT)</profileName>
+    <profileName>10gen Procurement</profileName>
+    <profileName>10gen Sales Rep</profileName>
+    <profileName>10gen Sales Manager</profileName>
+    <profileName>10gen Finance (INSIDER)</profileName>
+    <profileName>10gen Legal (INSIDER)</profileName>
+    <profileName>System Administrator</profileName>
+    <profileName>Contract Manager</profileName>
+</ConnectedApp>

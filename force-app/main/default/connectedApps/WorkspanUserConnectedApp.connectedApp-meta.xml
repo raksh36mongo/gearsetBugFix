@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>crm-technologies+workspan@mongodb.com</contactEmail>
+    <ipRanges>
+        <end>155.226.129.249</end>
+        <start>155.226.129.249</start>
+    </ipRanges>
+    <label>WorkspanUserConnectedApp</label>
+    <oauthConfig>
+        <callbackUrl>https://login.salesforce.com/</callbackUrl>
+        <certificate>MIIDrDCCApQCCQCLvceYzZDwLzANBgkqhkiG9w0BAQsFADCBlzELMAkGA1UEBhMCSU4xEDAOBgNVBAgMB0hhcnlhbmExETAPBgNVBAcMCEd1cnVncmFtMRAwDgYDVQQKDAdNb25nb2RiMRAwDgYDVQQLDAdUZWNoT3BzMRQwEgYDVQQDDAttb25nb2RiLmNvbTEpMCcGCSqGSIb3DQEJARYac2ZkY2RlcGxveW1lbnRAbW9uZ29kYi5jb20wHhcNMjQwNjA2MTAxODMzWhcNMjUwNjA2MTAxODMzWjCBlzELMAkGA1UEBhMCSU4xEDAOBgNVBAgMB0hhcnlhbmExETAPBgNVBAcMCEd1cnVncmFtMRAwDgYDVQQKDAdNb25nb2RiMRAwDgYDVQQLDAdUZWNoT3BzMRQwEgYDVQQDDAttb25nb2RiLmNvbTEpMCcGCSqGSIb3DQEJARYac2ZkY2RlcGxveW1lbnRAbW9uZ29kYi5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCnjPhI0W8rmq3+GID0rINuH+AtYvu1V2J9sLg4QTu4wsVXQXpe3GpjHO/ApoZtSR25i6OXJtBVgMD/K5yTrb9v1FHL6jAnE9FQoQB6/FnGgjR+6Mh8y49rJpMxYakai4dOPAo9YjDH3ZnDq38AmACip+cDFf4ExvNMtAzmUdzvP6uuq1N3Mkc3cZaJVy81mkjmZIC5H153UzXXx2xLzBSswglE9FyYsg4TDhvsxHTIVZKc1P3fzMA5THveM7ftRkYMmpIMa4I1lUxsuSlzQDKDA8KcYMcXYZBpk3WT7/oqiFlzauI6QOO1p/4OK/eGS+ndgZvc+D3fllZSjIwNy0rlAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAIYpTFDw9d1cghPcmzkAFthxpw9zEzq9s4eowcafuWBZeDww3Cjirn/UwaiYCzwxPQDKaWHrwq7DXQ03XUS6RZVYuEY9jp0Yj/H6H1ITpXAUM1bL4WJAe/hlD7QQmGHauHwuP/quT0MqmOX2NNnE6gQxdx384A2DJnqT3TBpDZylB68NddQrQmhpe1rTwzfZsDlj14ep67WVA3J3tTyAFKkyRt7INQiVlN2g2MexE82HMBdCo39OO47/iTmigTEl+2E8b5+f3pNd/pA7wS7nWY2sQg+9ZEsSFtxr/vwSwR2pkpyxBUTJ9O5KQnvuzlEHgDtJzVlg/N5DXwAfgnNzYiw=</certificate>
+        <consumerKey>3MVG9iBaHQRfreBmzVhejYNV5jiF0V_Jf9UMR1aikQQwpNxijjrq5zlhcamfl2qIhdByY0fIXsrXi0J1GXqgz</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Api</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <permissionSetName>WorkSpan Admin Connected App</permissionSetName>
+</ConnectedApp>

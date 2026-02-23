@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorizeUrl>https://mongodbgov.my.salesforce.com/services/oauth2/authorize</authorizeUrl>
+    <consumerKey>3MVG9nQ8gW5RCRxV8i1SCI3vwc0xtLLoejmC48AR5LR6HBYV9YBKPnAzPU7bs6lxOgdjJy9MPabQYVMZtgM8f</consumerKey>
+    <consumerSecret>Placeholder_Value</consumerSecret>
+    <defaultScopes>api refresh_token offline_access</defaultScopes>
+    <friendlyName>SfdcToSfdcSync</friendlyName>
+    <includeOrgIdInIdentifier>true</includeOrgIdInIdentifier>
+    <isPkceEnabled>false</isPkceEnabled>
+    <providerType>Salesforce</providerType>
+    <requireMfa>false</requireMfa>
+    <sendAccessTokenInHeader>false</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+    <sendSecretInApis>true</sendSecretInApis>
+    <tokenUrl>https://mongodbgov.my.salesforce.com/services/oauth2/token</tokenUrl>
+</AuthProvider>

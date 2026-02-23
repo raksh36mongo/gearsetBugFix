@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>samuel.barone@mongodb.com</contactEmail>
+    <contactPhone>9016748876</contactPhone>
+    <description>Connected app used by TS Tools for Customer Portal</description>
+    <ipRanges>
+        <end>213.41.116.23</end>
+        <start>213.41.116.16</start>
+    </ipRanges>
+    <ipRanges>
+        <end>212.56.8.47</end>
+        <start>212.56.8.40</start>
+    </ipRanges>
+    <ipRanges>
+        <end>207.251.78.39</end>
+        <start>207.251.78.32</start>
+    </ipRanges>
+    <ipRanges>
+        <end>206.252.195.126</end>
+        <start>206.252.195.126</start>
+    </ipRanges>
+    <ipRanges>
+        <end>204.153.194.103</end>
+        <start>204.153.194.96</start>
+    </ipRanges>
+    <ipRanges>
+        <end>182.76.117.55</end>
+        <start>182.76.117.48</start>
+    </ipRanges>
+    <ipRanges>
+        <end>162.213.133.99</end>
+        <start>162.213.133.99</start>
+    </ipRanges>
+    <ipRanges>
+        <end>124.254.96.131</end>
+        <start>124.254.96.131</start>
+    </ipRanges>
+    <ipRanges>
+        <end>123.103.203.223</end>
+        <start>123.103.203.216</start>
+    </ipRanges>
+    <ipRanges>
+        <end>104.30.176.2</end>
+        <start>104.30.176.2</start>
+    </ipRanges>
+    <ipRanges>
+        <end>104.30.164.15</end>
+        <start>104.30.164.0</start>
+    </ipRanges>
+    <ipRanges>
+        <end>104.30.160.1</end>
+        <start>104.30.160.1</start>
+    </ipRanges>
+    <ipRanges>
+        <end>104.30.134.193</end>
+        <start>104.30.134.193</start>
+    </ipRanges>
+    <ipRanges>
+        <end>104.30.134.192</end>
+        <start>104.30.134.192</start>
+    </ipRanges>
+    <ipRanges>
+        <end>104.30.134.191</end>
+        <start>104.30.134.191</start>
+    </ipRanges>
+    <ipRanges>
+        <end>104.30.134.190</end>
+        <start>104.30.134.190</start>
+    </ipRanges>
+    <ipRanges>
+        <end>104.30.134.189</end>
+        <start>104.30.134.189</start>
+    </ipRanges>
+    <ipRanges>
+        <end>104.30.134.188</end>
+        <start>104.30.134.188</start>
+    </ipRanges>
+    <ipRanges>
+        <end>104.30.134.187</end>
+        <start>104.30.134.187</start>
+    </ipRanges>
+    <ipRanges>
+        <end>104.30.134.186</end>
+        <start>104.30.134.186</start>
+    </ipRanges>
+    <ipRanges>
+        <end>97.77.203.63</end>
+        <start>97.77.203.56</start>
+    </ipRanges>
+    <ipRanges>
+        <end>89.101.148.239</end>
+        <start>89.101.148.232</start>
+    </ipRanges>
+    <ipRanges>
+        <end>83.221.128.34</end>
+        <start>83.221.128.34</start>
+    </ipRanges>
+    <ipRanges>
+        <end>81.101.80.95</end>
+        <start>81.101.80.80</start>
+    </ipRanges>
+    <ipRanges>
+        <end>77.107.233.167</end>
+        <start>77.107.233.160</start>
+    </ipRanges>
+    <ipRanges>
+        <end>74.113.166.159</end>
+        <start>74.113.166.152</start>
+    </ipRanges>
+    <ipRanges>
+        <end>63.32.217.76</end>
+        <start>63.32.217.76</start>
+    </ipRanges>
+    <ipRanges>
+        <end>61.246.212.71</end>
+        <start>61.246.212.64</start>
+    </ipRanges>
+    <ipRanges>
+        <end>52.23.96.117</end>
+        <start>52.23.96.117</start>
+    </ipRanges>
+    <ipRanges>
+        <end>50.175.175.247</end>
+        <start>50.175.175.240</start>
+    </ipRanges>
+    <ipRanges>
+        <end>50.175.168.151</end>
+        <start>50.175.168.144</start>
+    </ipRanges>
+    <ipRanges>
+        <end>44.220.233.194</end>
+        <start>44.220.233.194</start>
+    </ipRanges>
+    <ipRanges>
+        <end>35.174.112.8</end>
+        <start>35.174.112.8</start>
+    </ipRanges>
+    <ipRanges>
+        <end>35.174.21.138</end>
+        <start>35.174.21.138</start>
+    </ipRanges>
+    <ipRanges>
+        <end>35.171.252.13</end>
+        <start>35.171.252.13</start>
+    </ipRanges>
+    <ipRanges>
+        <end>35.171.246.35</end>
+        <start>35.171.246.35</start>
+    </ipRanges>
+    <ipRanges>
+        <end>35.170.235.251</end>
+        <start>35.170.235.251</start>
+    </ipRanges>
+    <ipRanges>
+        <end>34.203.106.157</end>
+        <start>34.203.106.157</start>
+    </ipRanges>
+    <ipRanges>
+        <end>34.199.107.127</end>
+        <start>34.199.107.127</start>
+    </ipRanges>
+    <ipRanges>
+        <end>18.228.127.246</end>
+        <start>18.228.127.246</start>
+    </ipRanges>
+    <ipRanges>
+        <end>14.200.46.135</end>
+        <start>14.200.46.128</start>
+    </ipRanges>
+    <ipRanges>
+        <end>14.195.102.143</end>
+        <start>14.195.102.136</start>
+    </ipRanges>
+    <ipRanges>
+        <end>14.98.65.63</end>
+        <start>14.98.65.56</start>
+    </ipRanges>
+    <ipRanges>
+        <end>13.201.114.222</end>
+        <start>13.201.114.222</start>
+    </ipRanges>
+    <ipRanges>
+        <end>12.196.188.175</end>
+        <start>12.196.188.168</start>
+    </ipRanges>
+    <ipRanges>
+        <end>8.29.231.53</end>
+        <start>8.29.231.53</start>
+    </ipRanges>
+    <ipRanges>
+        <end>4.35.206.223</end>
+        <start>4.35.206.216</start>
+    </ipRanges>
+    <ipRanges>
+        <end>3.77.23.139</end>
+        <start>3.77.23.139</start>
+    </ipRanges>
+    <label>TS TOOLS Customer Portal</label>
+    <oauthConfig>
+        <callbackUrl>https://login.salesforce.com/services/oauth2/success</callbackUrl>
+        <certificate>MIIEKzCCAxOgAwIBAgIUQBoctu0iWlMoCWtQrr5LFxvWjwAwDQYJKoZIhvcNAQELBQAwgaQxCzAJBgNVBAYTAlVTMREwDwYDVQQIDAhOZXcgWW9yazEWMBQGA1UEBwwNTmV3IFlvcmsgQ2l0eTEQMA4GA1UECgwHTW9uZ29EQjEQMA4GA1UECwwHU1VQUE9SVDEiMCAGA1UEAwwZbW9uZ29kYi5teS5zYWxlc2ZvcmNlLmNvbTEiMCAGCSqGSIb3DQEJARYTc3VwcG9ydEBtb25nb2RiLmNvbTAeFw0yNTAzMDQxNTA5MzhaFw0zNTAzMDIxNTA5MzhaMIGkMQswCQYDVQQGEwJVUzERMA8GA1UECAwITmV3IFlvcmsxFjAUBgNVBAcMDU5ldyBZb3JrIENpdHkxEDAOBgNVBAoMB01vbmdvREIxEDAOBgNVBAsMB1NVUFBPUlQxIjAgBgNVBAMMGW1vbmdvZGIubXkuc2FsZXNmb3JjZS5jb20xIjAgBgkqhkiG9w0BCQEWE3N1cHBvcnRAbW9uZ29kYi5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCYeoNR4cGK8pNthyvH3z8vqXisn90C+MCFL/g62Z9MD4C5v6LDWYRS9hNniCNJj0u7JqThdg7UDAotA0OrAgTxtzL0/okbmmm4/Pzmx89TA3lxMcy9GUATnlylgW+GXj+8lRA6owFYzJv2HFCVt7dwDkfzJEQXdJwGGq7QNmTM+LdMitripKvZpeVtouMXmCWB6ubCVtskeDwdUH4DV2BV733/EkkO4+j5gz1RWuYiZxPTwDjxzMS0bqO/25xsvcGwhbwkArYyqlt4lE6veLnwcHbw4cWy8Sv+PJXK9thkdixfRybwFUU4SdWRVktLPbdV/iEYAQuGxpR8TuYXK8I5AgMBAAGjUzBRMB0GA1UdDgQWBBT8ztiI2SEmn0CyjyFd7oTvRYur8jAfBgNVHSMEGDAWgBT8ztiI2SEmn0CyjyFd7oTvRYur8jAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA4av3fTlGylXLHxZwfn4yA52Z5Zbf5oUwnEy/pIZZYXnx7omw4buB8ndtsyJSr0hOj7wK7ODkx3WQV6NU0tx9BBz0q90mGs9CoJubXl0pox+k+3Zyg/DlwsI/gUIVArvne1W91Akl1xqLC8ylmg9lbYXE5eALXXSkCFCWfW6LtI8z/xxXiTqOZrvrcCtZrwAJTkCmEDexNAJzt99hIWgNdCXtsozZurL0N7qAhtv+7uGDlyxNL0Etyj+1p3mdxYb3JoJRs/Bg+kfRgylkYt9JoyOOGY8fonQAgu32beEN+TbTyFjltZFXJ8auvpYqgys6wKRFA5+UTREmSHJr2BcpT</certificate>
+        <consumerKey>3MVG9iBaHQRfreBmzVhejYNV5jiF0V_Jf9UMRS.hZDqO3HfCijI.ALc_Xs4voSRrZd42OzWxXmdCHiCsIt0.X</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <permissionSetName>INT_TSTools_Streaming</permissionSetName>
+    <permissionSetName>TS Support</permissionSetName>
+    <permissionSetName>TS Support Manager</permissionSetName>
+    <permissionSetName>INT_Customer_Portal</permissionSetName>
+    <profileName>10gen Solution Architects Manager</profileName>
+    <profileName>10gen SalesDev Global BDR (INSIDER)</profileName>
+    <profileName>System Admin Read only</profileName>
+    <profileName>Integration Minimum Access (DO NOT EDIT)</profileName>
+    <profileName>10gen CSM Ops (INSIDER)</profileName>
+    <profileName>10gen Services Project Managers</profileName>
+    <profileName>10gen Security</profileName>
+    <profileName>10gen Services Ops Admin (INSIDER)</profileName>
+    <profileName>10GenServices Partner</profileName>
+    <profileName>10GenServices Partner RM</profileName>
+    <profileName>10gen Sales Rep</profileName>
+    <profileName>10gen Sales Manager</profileName>
+    <profileName>10gen Services</profileName>
+    <profileName>10gen SalesDev</profileName>
+    <profileName>10gen Partner Management (INSIDER)</profileName>
+    <profileName>10gen CSM (INSIDER)</profileName>
+    <profileName>10gen ISR</profileName>
+    <profileName>10gen Support</profileName>
+    <profileName>10gen Sales Dev Manager</profileName>
+    <profileName>10gen Sales Enablement</profileName>
+    <profileName>10gen Cloud TAM (INSIDER)</profileName>
+    <profileName>10gen Services Specialist (INSIDER)</profileName>
+    <profileName>10gen Sales VP (INSIDER)</profileName>
+    <profileName>10gen Support Manager (INSIDER)</profileName>
+    <profileName>10gen Sales Enablement (INSIDER)</profileName>
+    <profileName>10gen Engineering</profileName>
+    <profileName>System Administrator</profileName>
+    <profileName>10gen Customer Community User</profileName>
+    <profileName>10gen Solution Architects</profileName>
+    <profileName>10gen Services Managers</profileName>
+    <profileName>System Integration Cloud (INSIDER)</profileName>
+    <profileName>10gen Product Management (INSIDER)</profileName>
+    <profileName>CSM MDB</profileName>
+    <profileName>MDB Solution Architect</profileName>
+    <profileName>MDB Tech Ops</profileName>
+    <profileName>MDB Sales Enablement</profileName>
+    <profileName>MDB Support</profileName>
+    <sessionPolicy>
+        <sessionTimeout>1440</sessionTimeout>
+    </sessionPolicy>
+</ConnectedApp>

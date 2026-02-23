@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>uday.vannarath@mongodb.com</contactEmail>
+    <description>BIZSYS-30036 @description : Connected app to let the RDC scheduling tool to connect to SF</description>
+    <label>RDC Scheduling Tool</label>
+    <oauthConfig>
+        <callbackUrl>https://schedtool-ui.ps.prod.corp.mongodb.com/api/v1/sf/oauth2/callback</callbackUrl>
+        <certificate>MIIDwjCCAqoCCQD/rTbNm5fjJTANBgkqhkiG9w0BAQsFADCBojELMAkGA1UEBhMCSU4xDjAMBgNVBAgMBURlbGhpMQ4wDAYDVQQHDAVEZWxoaTEQMA4GA1UECgwHTW9uZ29EQjEeMBwGA1UECwwVUHJvZmVzc2lvbmFsIFNlcnZpY2VzMRQwEgYDVQQDDAttb25nb2RiLmNvbTErMCkGCSqGSIb3DQEJARYca2FyYW4uc3JpdmFzdGF2YUBtb25nb2RiLmNvbTAeFw0yMjAzMTExNDU2MDdaFw0yMzAzMTExNDU2MDdaMIGiMQswCQYDVQQGEwJJTjEOMAwGA1UECAwFRGVsaGkxDjAMBgNVBAcMBURlbGhpMRAwDgYDVQQKDAdNb25nb0RCMR4wHAYDVQQLDBVQcm9mZXNzaW9uYWwgU2VydmljZXMxFDASBgNVBAMMC21vbmdvZGIuY29tMSswKQYJKoZIhvcNAQkBFhxrYXJhbi5zcml2YXN0YXZhQG1vbmdvZGIuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuRBExMqc1s83so6/bUjiloN2WLzTZP4A5J3x9KvtGXEOiMXfJ6cj9o3MX/h6OpH8EgLDWUsHqHgSJDe3ttvJ3yd9oEd8YTHNKlwhvFTV/3Qtwi9RyCGN/Euwy0vFUS33lrdBnTEYMwzgTKaDZxMwI+W7kvgtuOvnFYxynjDajGsofJmVb67CJpvmNE+W4R5rAWZkpy4/2btSH3Z780xM8D7lYDjlEtrl/NT4kL/PSlMsqNITtk0zxUdFf0VN45/KLWe/d9zb13w7NzhmQ6RCcQd+Nwrbso+qEjRplqUPw2lgQuhLXX6owdbJ4tMVszPCIlhkmYwuDKiaruUDmFyZZwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQCPuvTeKKwZIN3lR+k4Yj0IuvwMYDFhhdXK7Ovd8t0yXZT4wEihTS9HziP/FFHy3ddufBmxErSfI4NdVP2bIUYdHHs6Eg1hwhbEtE37q5+DBzVB1sQD62DzV4IKNQKyKieBVz/jj5cYw8rBwPWmAp7frahZdPB9loFw8jYdGxGE5RaIazg+Nw043i8kpErR6NKAs/eyfXfT62IO34SKmbobjQ+FZ3KckblL4LELPsYiMkj8ic7DD8exFYJWDzpDTXBxrFpbvOqAwwqdPjaUga5ExTXZQR2DB9/sqy81/MY6/1tvHxoUyOg41YBNj3ms2gRqmqbLxIWTZqd/SL0vfEP9</certificate>
+        <consumerKey>3MVG9iBaHQRfreBmzVhejYNV5jj_TLsmaHKpCOvrCcqKFVdGFvQEnU9tIofOXWo3JjL.MW2LdEmQ2x74GJ_Dx</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Api</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>zero</refreshTokenPolicy>
+    </oauthPolicy>
+    <permissionSetName>INT Remote Delivery Center</permissionSetName>
+</ConnectedApp>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>jarrod.hinson@mongodb.com</contactEmail>
+    <description>Connected app used by the Support API to authenticate Community Users for Customer API Access.</description>
+    <label>Customer Support API</label>
+    <oauthConfig>
+        <callbackUrl>https://support-api.ts-tools.staging.mongodb.sh/public/v1.0/auth/callback</callbackUrl>
+        <certificate>MIIERTCCAy2gAwIBAgIURDsCqB1qzLcZWYHT0n/bhS3cNNkwDQYJKoZIhvcNAQELBQAwgbExCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJDQTESMBAGA1UEBwwJUGFsbyBBbHRvMRYwFAYDVQQKDA1Nb25nb0RCLCBJbmMuMScwJQYDVQQLDB5UUy1Ub29scxtbRBtbRBtbRBtbRBtbRBtbQxtbNH4xQDA+BgNVBAMMN3N1cHBvcnQubW9uZ29kYi5jb20bW0QbG1s0fmFwaS5zdXBwb3J0LmNvcnAubW9uZ29kYi5jb20wHhcNMTkwMzA2MjIwNTQ3WhcNMTkwNDA1MjIwNTQ3WjCBsTELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAkNBMRIwEAYDVQQHDAlQYWxvIEFsdG8xFjAUBgNVBAoMDU1vbmdvREIsIEluYy4xJzAlBgNVBAsMHlRTLVRvb2xzG1tEG1tEG1tEG1tEG1tEG1tDG1s0fjFAMD4GA1UEAww3c3VwcG9ydC5tb25nb2RiLmNvbRtbRBsbWzR+YXBpLnN1cHBvcnQuY29ycC5tb25nb2RiLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM3woXRabZc3OTCmfkE9qG4sZTDrJhSiAwzJF3iMZqgpOTd6v7c0aLUWIetHOi39DaJPdjcRuu18aMFrrQtqV40/KV/tpceXhtDyYd+UmKTpC/zt81Py1231iV/PVfNO28pc2LBaXllSl44AeRP43ZZ5CInY7+h2JN0OkbL8Ulmlh4iC4mmPLdg/UAmTrY8zxw6ZdiFiVBFQRYHml521AIU6S7j5N5ptMSRQIpfE3gJ6XlqS74AdPpZV7Uls6r0yTKn5qldORheJ5CTh6blgq/2KDNNhHtAdbwQ3IAyvDHb9nYjP+PDerC6PEagrjnHDJBO6FCFJNI9WInVsX6Lnv2ECAwEAAaNTMFEwHQYDVR0OBBYEFG0Wu8XfsSzk3Elh1mRxrQrYmCPaMB8GA1UdIwQYMBaAFG0Wu8XfsSzk3Elh1mRxrQrYmCPaMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACiFVnfyXjBxv3ZkUjgHlngsfUobY43NA5gv5k82CVCx6XFGJPw7nCcUmhznvTq557Tu4Vg5MBnG+yu3g2WXXt9ZWYKJ/9232RkFRW24hzIYLTz2SnuCU1SMlaI89TwWaOjGCaifNHVNM/4ArQ6WX1FHQbLNp52C0hHowhzy1pt2M0Ku+OP2YEAqAMGsBXXBcjBwS8l6EGchVuYYbx5omREHpIKq2PKyRzSB9WyojVicvM0Fg+PTLOpZ5EOpkv8Rpqlu33kkjcl0kafhLfYvbEf/CrKIddTReriuN0A3P+JjBTVZQ6yQITCGiEcOMcylhsOsTGPxTX0lT5NwL2MZ9fI=</certificate>
+        <consumerKey>3MVG9iBaHQRfreBmzVhejYNV5jinSKfks9UnQQpmCDdMx9RMcDTq5HYPAGJklROS0fWKe0DjwIt6lwI2Dx6BS</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <permissionSetName>Customer Support API Community Users</permissionSetName>
+    <permissionSetName>INT_CustomerSupportAPI</permissionSetName>
+    <profileName>System Administrator</profileName>
+    <profileName>10gen Customer Community User</profileName>
+</ConnectedApp>

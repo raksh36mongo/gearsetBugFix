@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>prashant.shinde@mongodb.com</contactEmail>
+    <description>Connected App for Mulesoft ESB</description>
+    <label>Mulesoft</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:8082/callback</callbackUrl>
+        <certificate>MIIEcjCCA1qgAwIBAgIOAZiZifVsAAAAAAlFv0owDQYJKoZIhvcNAQELBQAwfjEWMBQGA1UEAwwNTXVsZVNvZnRfMjAyNTEYMBYGA1UECwwPMDBEQTAwMDAwMDBLejBsMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTAeFw0yNTA4MTExNDMwMTJaFw0yNjA4MTExMjAwMDBaMH4xFjAUBgNVBAMMDU11bGVTb2Z0XzIwMjUxGDAWBgNVBAsMDzAwREEwMDAwMDAwS3owbDEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC7Ypd+CNSjMtexp/F//1ClMHk38uiYCkdummgJGUGBNXxuV6DOlvS6vBeyg8HbGNQWmfpD+85gQKX3sXytzlBehwFxcy7TbYvTk2QI5hR3IgnNb0/zX9ejw2PejwQCOepQd2O5GPgoFWhzX1ACwH/8eEtYn923SyAz8FeEEcUeawwzkcTPTskDAayyBhAOH6V0B0hk7IV3ec4ZO95cv/0vrc6qPVHSRnaUfSWYmAG868cUYtfxvLoc0MLqjbLmkHjmbmLBuUYWNuDS7iBJ5BdA8BsNBuuPbVHEsyvDaLJqcx85D9VPD0o+SaGCIOG8cAI4lPy5K0Ki2u5zEiiP8X6vAgMBAAGjge0wgeowHQYDVR0OBBYEFB6gC/uuB06tQRuwejYMjXIEY2BWMA8GA1UdEwEB/wQFMAMBAf8wgbcGA1UdIwSBrzCBrIAUHqAL+64HTq1BG7B6NgyNcgRjYFahgYOkgYAwfjEWMBQGA1UEAwwNTXVsZVNvZnRfMjAyNTEYMBYGA1UECwwPMDBEQTAwMDAwMDBLejBsMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQYIOAZiZifVsAAAAAAlFv0owDQYJKoZIhvcNAQELBQADggEBAFB+rgLVNeLHUyBhwHQAppyeRMwENHOPzmcTMwxiyTcqtp/5TYz4kYVLrH7pHrf+ZaLV3QdXkkMEnhmeNi0HLeDmag9d9Reh9d+FpWZfLbOEQdr6vypV7RZYREV5XucO+S964TQQqjd5LAzbMxveyUbh13r6aZNxCKUdS4S4AcUPIyUi/RMoEVHo39bz0+eAsjJbSt4B7Or5MzzVCpKZF3ewSgK1Diysnv6tT+At0FyDYEND8uRQbdPHnLT70t+fdO4r6c1IRRdTyfG5vmEgN0NVBZE1rGSt744vuPpwSEqxQgwamorLnxilMl7KJoeFrVeNrX24C7NhpnK3AhxEEKg=</certificate>
+        <consumerKey>3MVG9iBaHQRfreBmzVhejYNV5jj_TLsmaHKpC4qMjrm4nHRjDbRMuGF3fHFss.7oB2EHjkeMMqRCNTFe4fHjP</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <permissionSetName>INT_Mulesoft</permissionSetName>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>

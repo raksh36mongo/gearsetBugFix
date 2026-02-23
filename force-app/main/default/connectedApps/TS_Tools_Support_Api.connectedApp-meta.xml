@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>ben.longberg@mongodb.com</contactEmail>
+    <contactPhone>6159132109</contactPhone>
+    <label>TS_Tools_Support_Api</label>
+    <oauthConfig>
+        <callbackUrl>https://login.salesforce.com/services/oauth2/success</callbackUrl>
+        <certificate>MIIEKzCCAxOgAwIBAgIUfUmwmjnrA+o6QWCGdnUYTJLLMAkwDQYJKoZIhvcNAQELBQAwgaQxCzAJBgNVBAYTAlVTMREwDwYDVQQIDAhOZXcgWW9yazEWMBQGA1UEBwwNTmV3IFlvcmsgQ2l0eTEQMA4GA1UECgwHTW9uZ29EQjEQMA4GA1UECwwHU1VQUE9SVDEiMCAGA1UEAwwZbW9uZ29kYi5teS5zYWxlc2ZvcmNlLmNvbTEiMCAGCSqGSIb3DQEJARYTc3VwcG9ydEBtb25nb2RiLmNvbTAeFw0yMjAzMjQxNjU4MjhaFw0yMjA0MjMxNjU4MjhaMIGkMQswCQYDVQQGEwJVUzERMA8GA1UECAwITmV3IFlvcmsxFjAUBgNVBAcMDU5ldyBZb3JrIENpdHkxEDAOBgNVBAoMB01vbmdvREIxEDAOBgNVBAsMB1NVUFBPUlQxIjAgBgNVBAMMGW1vbmdvZGIubXkuc2FsZXNmb3JjZS5jb20xIjAgBgkqhkiG9w0BCQEWE3N1cHBvcnRAbW9uZ29kYi5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDjmoqDFMvviyn5ExA9GqxG1ApTnqvUwIWK8yo1la4TZIM5KLrKyKHn5DY+/1cjy8e5/bfe9rSE7xG59YKM7wu8U6Q3uq7CxnLMSeRuVl2eFNJDaXEqIIR3mqjMBLCv9NrMfRi27nhN7HonC334nj/qwE1V4/7e8VzSKc481RaExyGazPxjn4WrDMJJaRRkFxkwGM1h7nTLt+J2MySYw6vX+46lOLNl1jOFDdwHi7eoG45LvOorwcRLJpx6O3AHUKCD2ZKaL/E7/Co1B/UiviUp5hdLzx6KsCSq9lCmURUX3XSykPd4CRVnwhrRjl3kobzEzJuIGxY2XajXetMFW1/fAgMBAAGjUzBRMB0GA1UdDgQWBBRpUfzJeWx9ww6nU5cZuq0hMveH/TAfBgNVHSMEGDAWgBRpUfzJeWx9ww6nU5cZuq0hMveH/TAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQDL+mj75YHVmVTcHPcVc4rgysMkxffdF7KkeUo+JaE1fOUy/H0pN0ngFyI8Ul4RDEtjRRoCix3yWdK6l+aWd7NZvK8cgzdXTTUD9ebYLgFDAXYRt2m5hifVAEmuWXaY7rCPK3vbNLZF/H6UOKpEcPDYd6d/s+HDfoVxQfr9rzTlFmw4KhY9xLHBmkoict6dEWaZJkTIFhq00nVKuhhAUWk/jZh+fFqm6Ue3LZeFXAAYcWZHse5+djSopxpJsRilCcpmhv9VzgumcIy2N7yCO/I4J/kbnHOMzx0g231XP5YU4BbGOMGOFfJ2iUxEj4kff4Ann/AhVTANreXGAvD5z8XV</certificate>
+        <consumerKey>3MVG9iBaHQRfreBmzVhejYNV5jiF0V_Jf9UMRPel0Ra5DdYR6LVUZ.1Rl61GzoXJUrfU2tdtDRuFgMV8KduNT</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <permissionSetName>INT_TSTools_Streaming</permissionSetName>
+    <profileName>10gen Services (EXTERNAL)</profileName>
+    <profileName>10gen Solution Architects Manager</profileName>
+    <profileName>10gen SalesDev Global BDR (INSIDER)</profileName>
+    <profileName>System Admin Read only</profileName>
+    <profileName>Integration Minimum Access (DO NOT EDIT)</profileName>
+    <profileName>10gen CSM Ops (INSIDER)</profileName>
+    <profileName>10gen Services Project Managers</profileName>
+    <profileName>10gen Security</profileName>
+    <profileName>10gen Services Ops Admin (INSIDER)</profileName>
+    <profileName>10GenServices Partner</profileName>
+    <profileName>10GenServices Partner RM</profileName>
+    <profileName>10gen Sales Rep</profileName>
+    <profileName>10gen Sales Manager</profileName>
+    <profileName>10gen Services</profileName>
+    <profileName>10gen SalesDev</profileName>
+    <profileName>10gen Partner Management (INSIDER)</profileName>
+    <profileName>10gen CSM (INSIDER)</profileName>
+    <profileName>10gen Support</profileName>
+    <profileName>10gen Sales Dev Manager</profileName>
+    <profileName>10gen Sales Enablement</profileName>
+    <profileName>10gen Cloud TAM (INSIDER)</profileName>
+    <profileName>10gen Services Specialist (INSIDER)</profileName>
+    <profileName>10gen Sales VP (INSIDER)</profileName>
+    <profileName>10gen Support Manager (INSIDER)</profileName>
+    <profileName>10gen Sales Enablement (INSIDER)</profileName>
+    <profileName>10gen Engineering</profileName>
+    <profileName>System Administrator</profileName>
+    <profileName>10gen Customer Community User</profileName>
+    <profileName>10gen Solution Architects</profileName>
+    <profileName>10gen Services Managers</profileName>
+    <profileName>System Integration Cloud (INSIDER)</profileName>
+    <profileName>10gen Product Management (INSIDER)</profileName>
+    <profileName>CSM MDB</profileName>
+    <profileName>MDB Solution Architect</profileName>
+    <profileName>MDB Tech Ops</profileName>
+    <profileName>MDB Sales Enablement</profileName>
+    <profileName>MDB Support</profileName>
+    <sessionPolicy>
+        <sessionTimeout>1440</sessionTimeout>
+    </sessionPolicy>
+</ConnectedApp>

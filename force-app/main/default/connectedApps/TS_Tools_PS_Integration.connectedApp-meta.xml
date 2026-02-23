@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>jarrod.hinson@mongodb.com</contactEmail>
+    <description>This connected app is used by TS Tools for the hosting of PS Applications. For example the PS API.</description>
+    <label>TS Tools PS Integration</label>
+    <oauthConfig>
+        <callbackUrl>https://login.salesforce.com/services/oauth2/success</callbackUrl>
+        <certificate>MIIDxjCCAq4CCQC7dfu6w5TlDzANBgkqhkiG9w0BAQsFADCBpDELMAkGA1UEBhMCVVMxETAPBgNVBAgMCE5ldyBZb3JrMRYwFAYDVQQHDA1OZXcgWW9yayBDaXR5MRAwDgYDVQQKDAdNb25nb0RCMRAwDgYDVQQLDAdTVVBQT1JUMSIwIAYDVQQDDBltb25nb2RiLm15LnNhbGVzZm9yY2UuY29tMSIwIAYJKoZIhvcNAQkBFhNzdXBwb3J0QG1vbmdvZGIuY29tMB4XDTI0MDMwNzE3MzkwMFoXDTI1MDMwNzE3MzkwMFowgaQxCzAJBgNVBAYTAlVTMREwDwYDVQQIDAhOZXcgWW9yazEWMBQGA1UEBwwNTmV3IFlvcmsgQ2l0eTEQMA4GA1UECgwHTW9uZ29EQjEQMA4GA1UECwwHU1VQUE9SVDEiMCAGA1UEAwwZbW9uZ29kYi5teS5zYWxlc2ZvcmNlLmNvbTEiMCAGCSqGSIb3DQEJARYTc3VwcG9ydEBtb25nb2RiLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANxa8IiVKXwFz1pzHDtoSe8JZ1neBq0N8JeqqwzgTlVHEjS+IuKfAN0rjP6sacy51uquuhCbIqTD9OKyjzgZXpvOA0s36fuvkTmsgnUVshKc4d0DtNIY4mnWZzbqplP7oMVQyRWRJ5fu3vlJBFZdismR4rLJFaXMEvVjaXxV/w4MlOe4yIKX5ozo2RzWvkwL+xavuL+nJQsDaDdWRXGfx+GGXsJ9yLAJLmkLNWIickbDcRp4p0BIMy8w99ydvTPHMnQh01duPMUn1tWK7sxhBezLZT+LPga5YXiQ/ZCX+ht/x6ryAQvlhSP3juc+ZuXbiFKzuI5iGx9pmWECahUSgo8CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAOvi9vDhJk2KinVOhWkq6aUcGm2j1UV53hUn6BLQ+D0Zi91Q6K48AY6KjxOVZDCBNzWDe9b94G93qW7m4FE1IqODOSR4qd5QNNLMiNDDrggIbZ4ZYjFhwrq+y7qfCuNlDKMY9WLwOTWVgZsnx/7unz8oGGSLKV3nNO4gBgTConpKsDu+xlD/Ueng65NDExnxLjFSGBBpVCqL3KuPyepuSvn3VnC+iKWoXecsJRPtx+IoWTNXs5LfCinQ+VA3MXxKHFU+h86CM7+9b3Yn3mSzPNa+9FNGMKdz8teKXfjmomGoLqX2ztONXiw15YNurPNT5tjmv/MyVmXEIjhiATQiXYw==</certificate>
+        <consumerKey>3MVG9iBaHQRfreBmzVhejYNV5jiF0V_Jf9UMR3ZmxIn930JCx51I0IyWBmHnkcwqBd_hIYZmj87VA4k65CpTg</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <permissionSetName>INT_GigCal</permissionSetName>
+</ConnectedApp>

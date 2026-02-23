@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>arnt.haering@mongodb.com</contactEmail>
+    <description>BIZSYS-20133 / BIZSYS-23919 Connected App for SfdcToSfdcSync (syncing data from commercial sfdc to Fedramp sfdc)</description>
+    <label>SfdcToSfdcSync</label>
+    <oauthConfig>
+        <callbackUrl>https://mongodb.my.salesforce.com/services/authcallback/SfdcToSfdcSync
+https://mongodbgov.my.salesforce.com/services/authcallback/SfdcToSfdcSync
+https://mongodb--stage.my.salesforce.com/services/authcallback/SfdcToSfdcSync
+https://mongodb--bizsys4.my.salesforce.com/services/authcallback/SfdcToSfdcSync</callbackUrl>
+        <consumerKey>3MVG9iBaHQRfreBmzVhejYNV5jj_TLsmaHKpC6RGutj.dqRX3Edrt9BcPh7l6NzRM3rtmO_iXbvXWvd8C_JLm</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Api</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>
